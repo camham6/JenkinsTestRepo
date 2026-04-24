@@ -33,5 +33,8 @@ pipeline {
         failure {
             echo 'Tests failed!'
         }
+        success {
+             echo 'All tests passed!'
+        }
     }
 }
